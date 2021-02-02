@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(192, 192, 192);
+}
+h4{
+    text-align: center;
+}
+.header{
+    color: rgb(50, 50, 50);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mapdiv{
+    width: 45%;
+    margin: auto;
+}
+
+
+.mapdiv path {
+fill: rgb(153, 50, 204);
+stroke: rgb(24, 54, 24);
+transition: fill 0.1s;
+stroke-width: 4px;
+}
+.mapdiv :hover{
+    fill: rgb(0, 46, 11);
+    fill-opacity: initial;
+    -ms-zoom-animation: default;
+}
+
+/**[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+
+a:title hover {
+    border: #c0c0c0 1px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none
+}
+**/
+a.textarea {
+fill:aquamarine ;
+}
